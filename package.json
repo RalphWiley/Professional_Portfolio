@@ -1,0 +1,24 @@
+{
+  "name": "Professional_Portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-sass": "node-sass sass/main.scss css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RalphWiley/Professional_Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RalphWiley/Professional_Portfolio/issues"
+  },
+  "homepage": "https://github.com/RalphWiley/Professional_Portfolio#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
