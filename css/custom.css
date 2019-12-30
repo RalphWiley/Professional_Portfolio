@@ -1,0 +1,52 @@
+.navbar {
+
+  padding: 10px;
+}
+
+.navbar-nav > li{
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.navbar-toggler {
+  display: block;
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: #1B3E62;
+  color: white;
+  border-radius: 0;
+}
+
+.container {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.card-body {
+  position: relative;
+}
+
+.btn {
+  position: absolute;
+  bottom: 20px;
+}
+
+.btn[type="submit"]{
+  bottom: 0;
+  position: relative;
+}
+
+.img-thumbnail {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+row > .height {
+    height: 100%;
+}
+
+.formStyles {
+  padding: 30px;
+}

@@ -1,0 +1,21 @@
+.social {
+    background-color: $base-color;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    @media (max-width: $breakpoint-xs){
+        flex-direction: row;
+    }
+}
+
+.height {
+    height: 100%;
+}
+
+.formStyles {
+    padding: 50px;
+    margin: auto 0;
+}
