@@ -9,11 +9,12 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/custom.css">
-    <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,500,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 </head>
-<body>
+<body id="body">
     <div class="container-fluid p-0" id="home">
-        <nav id="scrollPage" class="navbar sticky-top navbar-expand-sm navbar-dark bg-primary">
+        <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-primary js-scroll-trigger">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon my-auto"></span>
@@ -22,13 +23,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#home">Home</a>
+                    <a class="nav-link js-scroll-trigger" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
+                    <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
@@ -39,10 +40,11 @@
         <div data-spy="scroll" data-target="scrollPage" data-offset="0">
         <header class="jumbotron">
             <h1 class="text-center title">Nick Keith</h1>
+            <img class="headshot mx-auto d-block" src="img/profile.png" alt="Nick Keith">
         </header>
         <section class="container-fluid pb-3" id="about">
             <p class="lead">
-                I have a passion for every art form and writing software is another means to that end. Writing front-end code is where I have the most fun expecially when I get to use CSS Materialize, Bootstrap, Grid or SASS. While I love the frontend I also have back-end
+                I have a passion for every art form and writing software is another means to that end. Writing front-end code is where I have the most fun especially when I get to use CSS Materialize, Bootstrap, Grid and / or SASS. While I love the frontend I also have back-end
                 experience with Laravel, Node JS and SQL. Using Git on the command line is something that is increasingly becoming my favorite
                 tool.
             </p>
@@ -76,6 +78,7 @@
                             <input type="text" readonly class="form-control-plaintext" id="staticEmail"
                                 value="nazkeith@gmail.com">
                                 </div>
+
                         </div>
                         <div class="form-group row justify-content-center">
                             <label for="message" class="col-sm-2 col-form-label">Message</label>
@@ -83,7 +86,7 @@
                             <textarea class="form-control" id="message" rows="3"></textarea>
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <a href="mailto:nazkeith@gmail.com"><button type="submit" class="btn btn-primary">Submit</button></a>
                     </form>
                 </div>
         </section>

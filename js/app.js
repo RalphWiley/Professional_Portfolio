@@ -79,16 +79,17 @@ projectData.forEach( (data, i) => {
 });
 
 $(document).ready(function () {
-    $('body').scrollspy({ target: ".home", offset: 150 });
-    //smoothscroll
-    $('a[href^="#"]').on('click', function () {
-        $(document).off("scroll");
-
-        $('a').each(function () {
-            $(this).removeClass('active');
-        })
-        $(this).addClass('active');
+    // Smooth scrolling using jQuery easing
+    $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+                $('html, body').animate({
+                    scrollTop: (target.offset().top - 71)
+                }, 1000, "easeInOutExpo");
+                return false;
+            }
+        }
     });
 });
-
-// Use Your Class or ID For Selection 

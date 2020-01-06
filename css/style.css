@@ -5,6 +5,9 @@ img {
   height: 200px;
   width: 100%; }
 
+body {
+  margin-top: 60px !important; }
+
 footer {
   background-color: #e9ecef;
   height: 100px;
@@ -319,10 +322,6 @@ template {
 [hidden] {
   display: none; }
 
-.title {
-  font-family: "Yanone Kaffeesatz", sans-serif;
-  font-size: 60px; }
-
 .myStyles {
   height: 400px; }
 
@@ -364,6 +363,10 @@ img {
   transform: translate(-50%, -50%);
   text-align: center; }
 
+#home {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700; }
+
 .social {
   background-color: #1B3E62;
   padding: 10px;
@@ -382,6 +385,11 @@ img {
   padding: 50px;
   margin: auto 0; }
 
+p.lead {
+  text-align: center;
+  line-height: 50px;
+  padding: 10px 50px; }
+
 .full-width {
   padding-right: 0;
   padding-left: 0; }
@@ -395,3 +403,11 @@ img {
 .col-md-12 {
   padding-left: 0;
   padding-right: 0; }
+
+.headshot {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%; }
+
+.title {
+  font-size: 60px; }
