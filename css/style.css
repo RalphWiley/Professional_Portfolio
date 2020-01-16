@@ -376,17 +376,16 @@ img {
   font-family: "Montserrat", sans-serif, default;
   font-weight: 700; }
 
-.resume {
-  display: block; }
-
 .btn-xl {
   padding: 1rem 1.75rem !important;
   font-size: 1.25rem !important; }
 
 .aboutMe {
   text-align: center;
-  line-height: 50px;
-  padding: 0px 50px; }
+  line-height: 50px; }
+  @media (min-width: 720px) {
+    .aboutMe {
+      padding: 0px 50px; } }
 
 .full-width {
   padding-right: 0;
@@ -416,10 +415,21 @@ img {
   padding: 20px;
   display: flex;
   justify-content: space-around;
-  align-items: center; }
-  @media (max-width: 575px) {
-    .social {
-      flex-direction: row; } }
+  align-items: center;
+  flex-direction: row; }
+
+.img-thumbnail {
+  width: 75px !important;
+  height: 75px !important;
+  border-radius: 50% !important;
+  padding: .4rem !important; }
+  @media (min-width: 720px) {
+    .img-thumbnail {
+      width: 100px !important;
+      height: 100px !important; } }
+
+.github {
+  padding: 0 !important; }
 
 #social {
   background-color: #1B3E62; }

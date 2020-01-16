@@ -3,14 +3,28 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-direction: row;
+}
 
-    @media (max-width: $breakpoint-xs){
-        flex-direction: row;
+.img-thumbnail {
+    width: 75px !important;
+    height: 75px !important;
+    border-radius: 50% !important;
+    padding: .4rem !important;
+
+    @media (min-width: $breakpoint-tablet){
+        width: 100px !important;
+        height: 100px !important;
     }
 }
 
+.github {
+  padding: 0 !important;
+}
+
+
 #social {
-background-color: $base-color;
+    background-color: $base-color;
 }
 
 .height {
