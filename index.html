@@ -39,63 +39,69 @@
         </nav>
         <div data-spy="scroll" data-target="scrollPage" data-offset="0">
         <header class="jumbotron">
-            <h1 class="text-center title">Nick Keith</h1>
             <img class="headshot mx-auto d-block" src="img/profile.png" alt="Nick Keith">
+            <h1 class="text-center title">Nick Keith</h1>
         </header>
-        <section class="container-fluid pb-3" id="about">
-            <p class="lead">
-                I have a passion for every art form and writing software is another means to that end. Writing front-end code is where I have the most fun especially when I get to use CSS Materialize, Bootstrap, Grid and / or SASS. While I love the frontend I also have back-end
-                experience with Laravel, Node JS and SQL. Using Git on the command line is something that is increasingly becoming my favorite
-                tool.
-            </p>
-        </section>
-        <main class="container-fluid pt-4 pb-4" id="projects">
-            <div class="row" id="main">
+        <section class="page-section" id="about">
+            <div class="container-fluid">
 
+                <h2 class="page-section-heading text-center text-uppercase">About</h2>
+                <div class="row">
+                    <p class="lead aboutMe">
+                        I have a passion for every art form and writing software is another means to that end. Writing front-end code is where I have the most fun especially when I get to use CSS Materialize, Bootstrap, Grid and / or SASS. While I love the frontend I also have back-end
+                        experience with Laravel, Node JS and SQL. Using Git on the command line is something that is increasingly becoming my favorite
+                        tool.
+                    </p>
+                </div>
+                <div class="text-center mt-2 mb-3">
+                    <a class="btn btn-xl btn-outline-primary" href="img\AfterActive.pdf" target="_blank">
+                        Resume
+                    </a>
+                </div>
+            </div>
+        </section>
+        <main class="container-fluid page-section" id="projects">
+            <h2 class="page-section-heading text-center text-uppercase mb-5">Projects</h2>
+            <!-- projects append from javascript-->
+            <div class="row" id="main">
+                
             </div>
         </main>
-        <section class="container-fluid" id="contact">
-            <div class="row">
-                <div class="col-xs-12 col-sm-2 social">
-                    <!-- <div class="row height"> -->
-                        <div class="social-image">
-                            <a href="https://www.linkedin.com/in/nick-keith/" target="_blank">
-                                <img src="img/linkedin.png" class="img-thumbnail"/>
-                            </a>
-                        </div>
-                        <div class="social-image">
-                            <a href="img\AfterActive.pdf" target="_blank">
-                                <img src="img/resume.png" class="img-thumbnail"/>
-                            </a>
-                        </div>
-                    <!-- </div> -->
-                </div>
-                <div class="col-xs-12 col-sm-10 pt-4 pb-4 formStyles">
-                    <form>
-                        <div class="form-group row justify-content-center">
-                            <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-                            <div class="col-sm-10">
-                            <input type="text" readonly class="form-control-plaintext" id="staticEmail"
-                                value="nazkeith@gmail.com">
-                                </div>
 
-                        </div>
-                        <div class="form-group row justify-content-center">
-                            <label for="message" class="col-sm-2 col-form-label">Message</label>
-                            <div class="col-sm-10">
-                            <textarea class="form-control" id="message" rows="3"></textarea>
-                            </div>
-                        </div>
-                        <a href="mailto:nazkeith@gmail.com"><button type="submit" class="btn btn-primary">Submit</button></a>
-                    </form>
-                </div>
+        <section class="container-fluid page-section" id="contact">
+            <h2 class="page-section-heading text-center text-uppercase">Contact</h2>
+            <p class="lead text-center">If you're open to interviewing Nick, you can email him at <a href="mailto:nazkeith@gmail.com">nazkeith@gmail.com</a></p>
+            <p class="lead text-center">Or call him at 913-526-3088</p>
         </section>
-        </div>
+
+        <section class="container-fluid" id="social">
+            
+            <div class="col social">
+                
+                <div class="social-image">
+                    <a href="https://www.linkedin.com/in/nick-keith/" target="_blank">
+                        <img src="img/linkedin.png" class="img-thumbnail" />
+                    </a>
+                </div>
+                <div class="social-image">
+                    <a href="img\AfterActive.pdf" target="_blank">
+                        <img src="img/resume.png" class="img-thumbnail" />
+                    </a>
+                </div>
+                <div class="social-image">
+                    <a href="https://www.github.com" target="_blank">
+                        <img src="img/github.png" class="img-thumbnail" />
+                    </a>
+                </div>
+                
+            </div>
+            
+        </section>
         </div>
     </div>
     <footer class="pt-4">
-        <div class="copyright pb-2">Nicholas A Keith</div>
-        <div class="tribute">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
+        <div class="copyright pb-2 text-light">Nicholas A Keith</div>
+        <div class="tribute text-light">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
         href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
     </footer>
 

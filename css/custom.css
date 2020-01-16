@@ -16,6 +16,7 @@
   background-color: #1B3E62;
   color: white;
   border-radius: 0;
+  margin-bottom: 0;
 }
 
 .headshot {
@@ -32,7 +33,7 @@
   position: relative;
 }
 
-.btn {
+.card-body > .btn {
   position: absolute;
   bottom: 20px;
 }

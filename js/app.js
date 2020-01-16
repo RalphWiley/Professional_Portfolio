@@ -64,7 +64,7 @@ projectData.forEach( (data, i) => {
             <div class="container">
                 <img src="${data.img}" class="card-img-top" alt="${data.title}">
                 <div class="overlay">
-                    <a href="${data.url}" role="button" class="btn btn-primary text">Play!</a>
+                    <a href="${data.url}" ><img src="img/goto.png" class="img-thumbnail goto" /></a>
                 </div>
             </div>
             <div class="card-body">
@@ -92,4 +92,13 @@ $(document).ready(function () {
             }
         }
     });
+});
+
+$('.js-scroll-trigger').click(function () {
+    $('.navbar-collapse').collapse('hide');
+});
+
+$('body').scrollspy({
+    target: '#navbarSupportedContent',
+    offset: 80
 });

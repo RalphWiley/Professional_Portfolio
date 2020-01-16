@@ -1,14 +1,16 @@
 .social {
-    background-color: $base-color;
-    padding: 10px;
+    padding: 20px;
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
     align-items: center;
 
     @media (max-width: $breakpoint-xs){
         flex-direction: row;
     }
+}
+
+#social {
+background-color: $base-color;
 }
 
 .height {

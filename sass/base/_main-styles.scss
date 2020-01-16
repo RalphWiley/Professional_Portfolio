@@ -12,7 +12,7 @@ body {
 }
 
 footer {
-    background-color: $background-color;
+    background-color: $footer-color;
     height: 100px;
     text-align: center;
 }
@@ -20,4 +20,13 @@ footer {
 .tribute {
     font-size: 10px;
     top: 0;
+}
+
+.page-section {
+    padding: 4rem;
+
+    .page-section-heading {
+        font-size: 3rem;
+        margin-bottom: 3rem;
+    }
 }

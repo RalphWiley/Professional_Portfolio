@@ -1,5 +1,5 @@
 .myStyles {
-    height: 400px;
+  height: 400px;
 }
 
 form > button {
@@ -9,15 +9,15 @@ form > button {
 }
 
 img {
-    object-fit: cover;
+  object-fit: cover;
 }
 .container {
-    position: relative;
+  position: relative;
 }
 
 .container:hover 
 .overlay {
-  opacity: 1;
+  opacity: .9;
 }
 
 .overlay {
@@ -31,6 +31,11 @@ img {
   opacity: 0;
   transition: .5s ease;
   background-color: $base-color;
+
+  .goto {
+    display: block;
+    margin: 50px auto 50px;
+  }
 }
 
 .text {
